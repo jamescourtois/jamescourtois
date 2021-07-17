@@ -48,14 +48,14 @@ description: Get in touch with us
                 <div class="select-wrapper">
                     <select class="block appearance-none font-sans w-full bg-gray-900 shadow rounded-lg outline-none mb-2 px-4 py-3 leading-loose text-gray-100" required="required" name="reason" id="reason">
                         <option value="">Make a selection</option>
-                        <option value="build">Build me a website</option>
-                        <option value="draw">My website is broken</option>
-                        <option value="draw">Your website is broken</option>
-                        <option value="work">Come work for me</option>
-                        <option value="draw">Teach me how to build websites</option>
-                        <option value="dad">Can I pet your dog</option>
-                        <option value="dad">I'm your real dad</option>
-                        <option value="general">General Inquiry</option>
+                        <option value="Build me a website">Build me a website</option>
+                        <option value="My website is broken">My website is broken</option>
+                        <option value="Your website is broken">Your website is broken</option>
+                        <option value="Come work for me"></option>
+                        <option value="Teach me how to build websites">Teach me how to build websites</option>
+                        <option value="Can I pet your dog">Can I pet your dog</option>
+                        <option value="I'm your real dad">I'm your real dad</option>
+                        <option value="General Inquiry">General Inquiry</option>
                     </select>
                 </div>
             </div>

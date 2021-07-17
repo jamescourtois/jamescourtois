@@ -39,21 +39,22 @@
     </div>
     <nav class="flex items-center justify-between my-8 padded py-8">
         <div>
-            @if ($next = $page->getNext())
-                <a class="text-xs" href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
-                    &LeftArrow; View details for {{ $next->title }}
-                </a>
-            @endif
-        </div>
-
-        <div>
-            <a href="/websites" class="text-xs">Back to website portfolio</a>
-        </div>
-
-        <div>
             @if ($previous = $page->getPrevious())
                 <a class="text-xs" href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
-                    View details for {{ $previous->title }} &RightArrow;
+                  &LeftArrow; View details for {{ $previous->title }} 
+                </a>
+            @endif
+        </div>        
+
+        <div>
+            <a href="/websites" class="text-xs">Back to websites portfolio</a>
+        </div>
+
+
+        <div>
+            @if ($next = $page->getNext())
+                <a class="text-xs" href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
+                    View details for {{ $next->title }} &RightArrow;
                 </a>
             @endif
         </div>
