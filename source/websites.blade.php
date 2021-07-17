@@ -16,7 +16,7 @@ pagination:
    
 
     <div class="padded w-full">
-        <div class="w-full-plus-16 -mx-8 flex flex-wrap">
+        <div class="w-full-plus-8 lg:w-full-plus-16 -mx-4 lg:-mx-8 flex flex-wrap">
             @foreach ($pagination->items as $project)
                 @include('_components.post-preview-inline')
             @endforeach
