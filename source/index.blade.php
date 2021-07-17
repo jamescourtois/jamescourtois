@@ -3,7 +3,6 @@
 
 @section('body')
 
-
 <div class="w-full h-auto lg:min-h-600 pb-24 max-w-3xl mx-auto flex flex-col items-center justify-center w-full">
     <div class="padded flex flex-col md:flex-row items-stretch justify-center relative w-full">
   
@@ -18,6 +17,19 @@
     </div>
 </div>
 
+<div class="w-full padded flex flex-col text-center pb-16">
+    <h2>I like making websites.</h2>
+    <div class="flex flex-col justify-start items-center">
+        <p>Of all the websites I've ever made in my life, these are three.</p>
+        @include('_layouts.btn',
+        [
+            'url' => '/websites',
+            'text' => 'View Website Portfolio',
+            'class' => False,
+            'icon' => False,
+        ])
+    </div>
+</div>
 
 <div class="padded w-full">
     <div class="w-full-plus-8 lg:w-full-plus-16 -mx-4 lg:-mx-8 flex flex-wrap">

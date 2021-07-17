@@ -47,6 +47,10 @@
         </div>
 
         <div>
+            <a href="/websites" class="text-xs">Back to website portfolio</a>
+        </div>
+
+        <div>
             @if ($previous = $page->getPrevious())
                 <a class="text-xs" href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
                     View details for {{ $previous->title }} &RightArrow;
