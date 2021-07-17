@@ -1,6 +1,5 @@
 ---
-title: Websites
-description: The websites
+title: Website Portfolio
 pagination:
     collection: websites
     perPage: 99
@@ -9,18 +8,15 @@ pagination:
 
 @section('body')
     <div class="padded">
-        <div class="flex flex-col pb-8">
+        <div class="flex flex-col pb-16">
             <h1>Website Portfolio</h1>
-            <div class="flex flex-col max-w-6xl">
-                
-            </div>
         </div>
     </div>
 
    
 
     <div class="padded w-full">
-        <div class="w-full-plus-8 lg:w-full-plus-16 -mx-4 lg:-mx-8 flex flex-wrap">
+        <div class="w-full-plus-16 -mx-8 flex flex-wrap">
             @foreach ($pagination->items as $project)
                 @include('_components.post-preview-inline')
             @endforeach

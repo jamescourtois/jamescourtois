@@ -1,6 +1,5 @@
 ---
 title: Vunderbar
-description: Thanks for reaching out.
 ---
 @extends('_layouts.master')
 

@@ -1,3 +1,6 @@
+---
+title: Home
+---
 
 @extends('_layouts.master')
 

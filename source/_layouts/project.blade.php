@@ -38,23 +38,23 @@
     <div>
     </div>
     <nav class="flex items-center justify-between my-8 padded py-8">
-        <div>
+        <div class="flex flex-1 items-start justify-start">
             @if ($previous = $page->getPrevious())
                 <a class="text-xs" href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
-                  &LeftArrow; View details for {{ $previous->title }} 
+                    &LeftArrow; {{ $previous->title }} 
                 </a>
             @endif
-        </div>        
+        </div>
+        
 
-        <div>
-            <a href="/websites" class="text-xs">Back to websites portfolio</a>
+        <div class="flex flex-1 items-start justify-center">
+            <a href="/websites" class="text-xs">&LeftArrow; all websites</a>
         </div>
 
-
-        <div>
+        <div class="flex flex-1 items-start justify-end">
             @if ($next = $page->getNext())
                 <a class="text-xs" href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
-                    View details for {{ $next->title }} &RightArrow;
+                    {{ $next->title }} &RightArrow;
                 </a>
             @endif
         </div>

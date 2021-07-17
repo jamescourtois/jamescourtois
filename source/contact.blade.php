@@ -1,6 +1,5 @@
 ---
 title: Contact
-description: Get in touch with us
 ---
 @extends('_layouts.master')
 

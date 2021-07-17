@@ -5,14 +5,14 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'James Courtois Website',
-    'siteDescription' => 'Cool guy',
+    'siteName' => 'JamesCourtois.surge.sh',
+    'siteDescription' => 'Website Portfolio for Front-end Web Developer James Courtois',
     'siteAuthor' => 'James Courtois',
 
     // collections
     'collections' => [
         'websites' => [
-            'sort' => ['order','title'],
+            'sort' => ['order'],
             'path' => 'websites/{filename}',
         ],
     ],
