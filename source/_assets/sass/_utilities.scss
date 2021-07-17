@@ -3,8 +3,8 @@
     font-size: 5rem;
     line-height:5rem;
     @screen md {
-        font-size:6rem;
-        line-height:6rem;
+        font-size:7rem;
+        line-height:7rem;
     } @screen lg {
         font-size:10rem;
         line-height:10rem;
@@ -64,7 +64,8 @@ a:not(.no-underline):not(.btn),
     @apply text-theme-light no-underline leading-tight border-b border-transparent;
     transition: all 400ms ease-out;
 
-    &:hover {
+    &:hover,
+    &.active {
         @apply text-theme-light border-theme-light;
     }
 

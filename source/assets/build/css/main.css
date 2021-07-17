@@ -986,6 +986,15 @@ footer {
   font-size: .925rem;
 }
 
+nav a.active {
+  --text-opacity: 1;
+  color: #13F0B2;
+  color: rgba(19, 240, 178, var(--text-opacity));
+  --border-opacity: 1;
+  border-color: #13F0B2;
+  border-color: rgba(19, 240, 178, var(--border-opacity));
+}
+
 #mc_embed_signup {
   width: 100%;
 }
@@ -1111,9 +1120,9 @@ footer {
 
 @media (min-width: 768px) {
   .jim.home-page {
-    width: 215px;
-    min-width: 215px;
-    height: 283.8px;
+    width: 225px;
+    min-width: 225px;
+    height: 297px;
   }
 }
 
@@ -1831,8 +1840,8 @@ footer {
 
 @media (min-width: 768px) {
   .home-title {
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: 7rem;
+    line-height: 7rem;
   }
 }
 
@@ -1969,8 +1978,9 @@ a:not(.no-underline):not(.btn),
   transition: all 400ms ease-out;
 }
 
-a:not(.no-underline):not(.btn):hover,
-.underline-animation:hover {
+a:not(.no-underline):not(.btn):hover, a:not(.no-underline):not(.btn).active,
+.underline-animation:hover,
+.underline-animation.active {
   --text-opacity: 1;
   color: #13F0B2;
   color: rgba(19, 240, 178, var(--text-opacity));

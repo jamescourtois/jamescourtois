@@ -1,4 +1,4 @@
-<nav class="hidden lg:flex items-center justify-end text-lg">
+<nav class="flex items-center justify-end text-lg">
     <a title="Websites by James Courtois" href="/websites"
         class="ml-6 {{ $page->isActive('/websites') ? 'active text-theme-light' : '' }}">
         Websites

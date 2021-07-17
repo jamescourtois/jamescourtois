@@ -9,11 +9,10 @@ pagination:
 
 @section('body')
     <div class="padded">
-        <div class="flex flex-col pb-16">
+        <div class="flex flex-col pb-8">
             <h1>Website Portfolio</h1>
             <div class="flex flex-col max-w-6xl">
-                <p>Go ahead and take a gander at this list of websites I've developed. Some of these projects were completed 100% by me, others were completed as a team effort. As the front-end developer, it was up to me to translate the design vision into the working digital form, including the back-end content entry, form validation and front end appearance.</p>
-                <p>You will see a mix of marketing sites and e-commerce. Almost all of these are WordPress sites built using Advanced Custom Fields, Gravity Forms, Node.js, Composer, and Laravel Blade. </p>
+                
             </div>
         </div>
     </div>
@@ -21,7 +20,7 @@ pagination:
    
 
     <div class="padded w-full">
-        <div class="w-full-plus-16 -mx-8 flex flex-wrap">
+        <div class="w-full-plus-8 lg:w-full-plus-16 -mx-4 lg:-mx-8 flex flex-wrap">
             @foreach ($pagination->items as $project)
                 @include('_components.post-preview-inline')
             @endforeach

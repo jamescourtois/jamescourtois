@@ -11,7 +11,7 @@
         @include face(185px); 
         
         @screen md {
-            @include face(215px);
+            @include face(225px);
         }
         @screen xl {
             @include face(300px);

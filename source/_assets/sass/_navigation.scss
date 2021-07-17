@@ -15,3 +15,11 @@
     @apply .text-gray-800;
     @apply .text-sm;
 }
+
+nav {
+    a{
+        &.active {
+            @apply text-theme-light border-theme-light;
+        }
+    }
+}

@@ -11,7 +11,7 @@ description: Get in touch with us
     <div class="flex-1">
         <h1>Let's start a conversation</h1>
         <p class="mb-8">
-            Fill out this form and tell what kind of web related needs you have. I will reply to you via email within 24 hours. This form is powered by <a target="_blank" href="http://form-data.com">form-data.com</a> (which is a great service you should check out) and the log is deleted after 90 days.
+            Fill out this form and let me know what I can do for you. I will reply to you via email within 24 hours. This form is powered by <a target="_blank" href="http://form-data.com">form-data.com</a> and the data is deleted after 90 days.
         </p>
 
         <script>

@@ -6,7 +6,8 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "dev": "npm run local",
         "watch": "npm run local -- --watch",
-        "deploy": "npm run production && cp CNAME build_production && cd build_production && surge"
+        "deploy": "npm run production && cp CNAME build_production && cd build_production && surge",
+        "deploy2": "npm run production && copy CNAME build_production && cd build_production && surge"
     },
     "devDependencies": {
         "axios": "^0.18.0",
