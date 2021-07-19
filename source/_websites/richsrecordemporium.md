@@ -7,7 +7,7 @@ description: A website build by James Courtois
 url: https://richsrecordemporium.com
 cover_image: /assets/img/richsrecordemporium.com.png
 featured: false
-categories: [wordpress, woocommerce, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, woocommerce, acf, sass, laravel blade, jquery, nodejs]
 ---
 
-Rich's Record Emporium is a custom wordpress and woocommerce build that features a flexible module-based page builder on the back end. About 85% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
+This was a multi-developer build on behalf of Matchbox Design Group for Rich's Record Emporium. This custom wordpress theme is based on the "Kindling" starter theme and integrates with WooCommerce. It includes a module-based page builder on the back end and a customized shop. I completed about 60% of the coding for this project, including the WooCommerce integration.

@@ -7,7 +7,7 @@ description: A website build by James Courtois
 url: https://neffpress.com
 cover_image: /assets/img/neffpress.com.png
 featured: false
-categories: [wordpress, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, woocommerce, acf, sass, laravel blade, jquery, nodejs]
 ---
 
-Neff Press is a custom wordpress and woocommerce  build that features a flexible module-based page builder on the back end. 100% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group. The ability to purchase products has been replaced with the functionality to request a quote. 
+This was a single-developer build on behalf of Matchbox Design Group for Neff Press. This custom wordpress theme is based on the "Kindling" starter theme. It includes a module-based page builder on the back end. 

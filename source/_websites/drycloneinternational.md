@@ -10,4 +10,4 @@ featured: false
 categories: [wordpress]
 ---
 
-Dryclone Internatioanl is a custom wordpress build based on a design provided by Anda Creative. 
+This was a single-developer build on behalf of Anda Creative for Dryclone International. This custom wordpress theme is based on the underscores starter theme. I worked very closely with the designer to ensure all the design aesthetics were coded properly.

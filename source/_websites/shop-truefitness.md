@@ -7,7 +7,7 @@ order: 2
 description: Website build by James Courtois
 cover_image: /assets/img/shop.truefitness.com.png
 featured: false
-categories: [wordpress, woocommerce, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, woocommerce, acf, sass, css animation, laravel blade, jquery, nodejs]
 ---
 
-The True Fitness retail website is a custom wordpress and woocommerce build that features a flexible module-based page builder on the back end. It also features custom hover based css animations. 100% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
+This was a single-developer build on behalf of Matchbox Design Group and UPBrand for TRUE Fitness. This custom wordpress theme is based on the "Kindling" starter theme and integrates with WooCommerce. It includes a module-based page builder on the back end and a heavily customized shop. The design for this retail site was provided by UPBrand.

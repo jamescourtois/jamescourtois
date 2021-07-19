@@ -7,7 +7,7 @@ order: 9
 description: Website build by James Courtois
 cover_image: /assets/img/sportsmanship.org.png
 featured: false
-categories: [wordpress, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, acf, sass, css animation, laravel blade, jquery, nodejs]
 ---
 
-The Sportmanship Foundation is a custom wordpress build that features a flexible module-based page builder on the back end. It features some custom hover based css animations and custom navigation menu. 100% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
+This was a multi-developer build on behalf of Matchbox Design Group for The Sportmanship Foundation. This custom wordpress theme is based on the "Kindling" starter theme. It includes a module-based page builder on the back end. I completed about 75% of the coding for this project.

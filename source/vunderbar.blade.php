@@ -16,6 +16,7 @@ title: Vunderbar
                 'text' => 'Go Home',
                 'class' => False,
                 'icon' => False,
+                'newtab' => False,
             ])
     @stop
 </div>

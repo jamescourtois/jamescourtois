@@ -7,8 +7,7 @@ description: A website build by James Courtois
 url: https://scctd.org
 cover_image: /assets/img/scctd.org.png
 featured: false
-categories: [wordpress, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, acf, sass, laravel blade, jquery, nodejs]
 ---
 
-Saint Clair County District Transporation Discrict is a custom wordpress build that features a flexible module-based page builder on the back end. About 100% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
-
+This was a multi-developer build on behalf of Matchbox Design Group for Saint Clair County Transporation District. This custom wordpress theme is based on the "Kindling" starter theme. It includes a module-based page builder on the back end. I completed roughly 50% of the coding for this project.

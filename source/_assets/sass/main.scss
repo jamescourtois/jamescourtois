@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
 
+@font-face {
+    font-family: 'Ventography';
+    src: url('/assets/fonts/ventography-webfont.woff2') format('woff2'),
+         url('/assets/fonts/ventography-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 
@@ -17,3 +25,4 @@
 @import 'utilities';
 
 @tailwind utilities;
+

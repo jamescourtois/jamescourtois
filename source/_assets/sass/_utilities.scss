@@ -1,17 +1,18 @@
 .home-title {
-    @apply text-theme-light font-heading font-bold m-0 relative z-40;
-    font-size: 5rem;
-    line-height:5rem;
+    @apply text-theme-light m-0 relative z-40;
+    font-family: 'Ventography';
+    font-size: 7.5rem;
+    line-height: 5rem;
     @screen md {
-        font-size:7rem;
-        line-height:7rem;
+        font-size: 10.5rem;
+        line-height: 7rem;
     } @screen lg {
-        font-size:10rem;
-        line-height:10rem;
+        font-size: 15rem;
+        line-height: 10rem;
     } 
     @screen xl {
-        font-size:13.5rem;
-        line-height:12rem;
+        font-size: 18.5rem;
+        line-height: 12rem;
         // margin-top:-3rem;
     }
 }

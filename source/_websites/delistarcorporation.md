@@ -7,7 +7,7 @@ order: 4
 description: Website build by James Courtois
 cover_image: /assets/img/delistarcorporation.com.png
 featured: false
-categories: [wordpress, sass, css animation, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, acf, sass, css animation, laravel blade, jquery, nodejs]
 ---
 
-Deli Star Corporation is a custom wordpress build that features a flexible module-based page builder on the back end. There are a few hover-based css animations. 100% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
+This was a single-developer build on behalf of Matchbox Design Group for Deli Star Corporation. This custom wordpress theme is based on the "Kindling" starter theme. It includes a module-based page builder on the back end.

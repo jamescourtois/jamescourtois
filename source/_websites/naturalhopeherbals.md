@@ -10,4 +10,4 @@ featured: false
 categories: [wordpress, woocommerce]
 ---
 
-Natural Hope Herbals is a custom wordpress and woocommerce build based on designs provided by Anda Creative.
+This was a single-developer build on behalf of Anda Creative for Natural Hope Herbals. This custom wordpress theme is based on the Underscores starter theme and integrates with WooCommerce. 

@@ -7,7 +7,7 @@ title: Contact
 
 <div class="padded flex flex-col lg:flex-row">
 
-    <div class="flex-1">
+    <div class="flex-1 mb-16">
         <h1>Let's start a conversation</h1>
         <p class="mb-8">
             Fill out this form and let me know what I can do for you. I will reply to you via email within 24 hours. This form is powered by <a target="_blank" href="http://form-data.com">form-data.com</a> and the data is deleted after 90 days.
@@ -47,13 +47,10 @@ title: Contact
                 <div class="select-wrapper">
                     <select class="block appearance-none font-sans w-full bg-gray-900 shadow rounded-lg outline-none mb-2 px-4 py-3 leading-loose text-gray-100" required="required" name="reason" id="reason">
                         <option value="">Make a selection</option>
-                        <option value="Build me a website">Build me a website</option>
-                        <option value="My website is broken">My website is broken</option>
-                        <option value="Your website is broken">Your website is broken</option>
-                        <option value="Come work for me"></option>
+                        <option value="Build me a new website">Build me a new website</option>
+                        <option value="My current website is broken">My current website is broken</option>
+                        <option value="Come work for me">Come work for me</option>
                         <option value="Teach me how to build websites">Teach me how to build websites</option>
-                        <option value="Can I pet your dog">Can I pet your dog</option>
-                        <option value="I'm your real dad">I'm your real dad</option>
                         <option value="General Inquiry">General Inquiry</option>
                     </select>
                 </div>
@@ -73,14 +70,11 @@ title: Contact
         </form>
         
     </div>
-    <div class="w-full lg:pl-32 lg:w-2/5">
+    <div class="w-full lg:pl-32 lg:w-2/5 mb-16">
         <h2>More ways to get in touch with me</h2>
         <ul class="list-none">
             <li class="mb-4">Call me: <br /><a href="tel:+13143846922">(314) 384-6922‬</a> (Google Voice)</li>
-            <li class="mb-4">Email me: <br /><a href="mailto:james.r.courtois@gmail.com">james.r.courtois@gmail.com</a></li>
-            <li class="mb-4">Pure chance: <br />Walk around <a target="_blank" href="https://www.google.com/maps/place/St.+Louis,+MO">St. Louis, MO</a> at random</li>
-            <li class="mb-4">Telekinesis: <br />AAAAAH GET OUTTA MY HEAD</li>
-            
+            <li class="mb-4">Email me: <br /><a href="mailto:james.r.courtois@gmail.com">james.r.courtois@gmail.com</a></li>       
         </ul>
     </div>
 

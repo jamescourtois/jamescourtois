@@ -7,6 +7,7 @@ description: A website build by James Courtois
 url: https://showmevictories.com
 cover_image: /assets/img/showmevictories.com.png
 featured: true
-categories: [wordpress, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, acf, sass, css animation, laravel blade, jquery, nodejs]
 ---
-Show Me Victories is a custom wordpress build that features a flexible module-based page builder on the back end. It features some custom hover based css animations. About 85% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
+
+This was a single-developer build on behalf of Matchbox Design Group for Show Me Victories. This custom wordpress theme is based on the "Kindling" starter theme. It includes a module-based page builder on the back end. I worked closely with a designer to create the assets and animation for the home page "raising hands" feature.

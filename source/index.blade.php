@@ -21,15 +21,15 @@ title: Home
 </div>
 
 <div class="w-full padded flex flex-col text-center pb-16">
-    <h2>I like making websites.</h2>
+    <h2>Front-end Web Developer based in St. Louis, MO.</h2>
     <div class="flex flex-col justify-start items-center">
-        <p>Of all the websites I've ever made in my life, these are three.</p>
         @include('_layouts.btn',
         [
             'url' => '/websites',
             'text' => 'View Website Portfolio',
             'class' => False,
             'icon' => False,
+            'newtab' => False,
         ])
     </div>
 </div>

@@ -7,7 +7,7 @@ url: https://paramountoutdoors.com
 description: Website build by James Courtois
 cover_image: /assets/img/paramountoutdoors.com.png
 featured: false
-categories: [wordpress, woocommerce, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, woocommerce, acf, sass, css animation, laravel blade, jquery, nodejs]
 ---
 
-Paramount Outdoors is a custom wordpress and woocommerce  build that features a flexible module-based page builder on the back end. It features some custom hover based css animations. About 85% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
+This was a multi-developer build on behalf of Matchbox Design Group for a sub-brand of Imperial Headwear. This custom wordpress theme is based on the "Kindling" starter theme and integrates with WooCommerce. It includes a module-based page builder on the back end and a customized shop. I completed roughly 60% of the coding for this project including all the css animations.

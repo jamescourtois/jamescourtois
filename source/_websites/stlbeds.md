@@ -7,7 +7,7 @@ order: 14
 description: Website build by James Courtois
 cover_image: /assets/img/stlbeds.com.png
 featured: false
-categories: [wordpress, sass, laravel blade, jquery, nodejs, composer]
+categories: [wordpress, acf, sass, css animation, laravel blade, jquery, nodejs]
 ---
 
-STL Beds is a custom wordpress and woocommerce build that features a flexible module-based page builder on the back end. It features some custom hover based css animations. About 85% of the front end of this website code I wrote. It is based on a laravel and node powered base theme proprietary to Matchbox Design Group.
+This was a multi-developer build on behalf of Matchbox Design Group and UPBrand for STL Beds. This custom wordpress theme is based on the "Kindling" starter theme and integrates with WooCommerce. It includes a module-based page builder on the back end and a customized shop. I completed about 60% of the coding for this project.

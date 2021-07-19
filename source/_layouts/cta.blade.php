@@ -8,6 +8,7 @@
             'text' => 'Contact Me',
             'class' => False,
             'icon' => False,
+            'newtab' => False,
         ])
     </div>
 </div>
