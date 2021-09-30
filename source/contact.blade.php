@@ -71,7 +71,7 @@ title: Contact
         
     </div>
     <div class="w-full lg:pl-32 lg:w-2/5 mb-16">
-        <h2>More ways to get in touch with me</h2>
+        <h2>More ways reach out</h2>
         <ul class="list-none">
             <li class="mb-4">Call me: <br /><a href="tel:+13143846922">(314) 384-6922‬</a> (Google Voice)</li>
             <li class="mb-4">Email me: <br /><a href="mailto:james.r.courtois@gmail.com">james.r.courtois@gmail.com</a></li>       

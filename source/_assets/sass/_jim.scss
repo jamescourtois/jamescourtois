@@ -3,7 +3,8 @@
     @include face(215px);
 
     &.in-header {
-        @include face(80px);
+        @apply mt-1;
+        @include face(100px);
     }
 
     &.home-page {

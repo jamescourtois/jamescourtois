@@ -7,14 +7,9 @@ pagination:
 @extends('_layouts.master')
 
 @section('body')
-    <div class="padded">
-        <div class="flex flex-col pb-16">
-            <h1>Website Portfolio</h1>
-        </div>
-    </div>
-
    
-
+    <h1 class="sr-only">Website Portfolio</h1>
+       
     <div class="padded w-full">
         <div class="w-full-plus-8 lg:w-full-plus-16 -mx-4 lg:-mx-8 flex flex-wrap">
             @foreach ($pagination->items as $project)
