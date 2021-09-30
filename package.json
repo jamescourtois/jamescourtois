@@ -10,7 +10,7 @@
         "deploy2": "npm run production && copy CNAME build_production && cd build_production && surge"
     },
     "devDependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.21.2",
         "cross-env": "^3.2.3",
         "fuse.js": "^3.3.0",
         "highlight.js": "^9.13.1",
